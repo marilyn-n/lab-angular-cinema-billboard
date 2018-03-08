@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<router-outlet>
+
+    <nav class="nav">
+      Marilyn Movies
+        <br>
+        <a href="/home">Home</a>
+        <a [href]="['movies:id']">Movies</a>
+     </nav>
+</router-outlet>

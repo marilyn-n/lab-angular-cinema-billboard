@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AccessControlLog{
     movies: Array<Object> = [
-      [
         {
           id: 1,
           title: "The Shawshank Redemption",
@@ -107,9 +106,6 @@ export class AccessControlLog{
             "Embeth Davidtz"
           ]
         }
-      ]
-
-
     ];
 
     constructor() { }
@@ -121,7 +117,7 @@ export class AccessControlLog{
 
 
     getMovie(id) {
-      return this.movies.id;
+      // return this.movies.id;
 
     }
 }
